@@ -18,7 +18,6 @@ The application allows a user to search for a product, select a specific option/
 | Dashboard | https://frontend-liard-rho-77.vercel.app/dashboard |
 | API (Render) | https://price-tracker-api-rqd5.onrender.com/api/health |
 | CSV export | https://price-tracker-api-rqd5.onrender.com/api/export.csv |
-| Demo video (headed run) | https://youtu.be/YWO2jRxq5Kw |
 | Design note | [`docs/decision.md`](./docs/decision.md#design-note): reliability, trade-offs, what the AI tools got wrong |
 
 The API runs on Render's free tier. A health ping every 10 minutes keeps it awake (see [Scraping Schedule](#scraping-schedule)), so it should answer right away; if the ping was missed, the first request can take about a minute while the instance starts.

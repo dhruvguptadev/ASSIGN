@@ -14,8 +14,7 @@ The application allows a user to search for a product, select a specific option/
 
 | | URL |
 |---|---|
-| App (Vercel) | https://frontend-liard-rho-77.vercel.app |
-| Dashboard | https://frontend-liard-rho-77.vercel.app/dashboard |
+
 | API (Render) | https://price-tracker-api-rqd5.onrender.com/api/health |
 | CSV export | https://price-tracker-api-rqd5.onrender.com/api/export.csv |
 | Design note | [`docs/decision.md`](./docs/decision.md#design-note): reliability, trade-offs, what the AI tools got wrong |
